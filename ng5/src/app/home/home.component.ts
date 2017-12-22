@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { trigger, style, transition, animate, keyframes, query, stagger } from '@angular/animations';
-// tslint:disable-next-line:quotemark
-import { DataService } from "../data.service";
+import { DataService } from '../data.service';
 
 @Component({
   selector: 'app-home',
